@@ -1,0 +1,52 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 4311396 Realtime: 10531009
+
+** MEMINFO in pid 29677 [com.youyouth.video] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   135750   135712        8        0   161408   153099     8308
+  Dalvik Heap    16915    16828        0        0    37287    22373    14914
+ Dalvik Other     1587     1584        0        0                           
+        Stack       84       84        0        0                           
+       Ashmem       24        4        0        0                           
+      Gfx dev     8424     8424        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     6548      456     4000      133                           
+    .jar mmap        2        0        0        0                           
+    .apk mmap      555        0      160        0                           
+    .dex mmap     5556        4     4076        0                           
+    .oat mmap     5900        0     3256        0                           
+    .art mmap     4006     3392        0        0                           
+   Other mmap      282        4      112        0                           
+   EGL mtrack    35424    35424        0        0                           
+    GL mtrack     4800     4800        0        0                           
+      Unknown     2621     2620        0        7                           
+        TOTAL   228622   209336    11616      140   198695   175472    23222
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    20220
+         Native Heap:   135712
+                Code:    11952
+               Stack:       84
+            Graphics:    48648
+       Private Other:     4336
+              System:     7670
+ 
+               TOTAL:   228622       TOTAL SWAP PSS:      140
+ 
+ Objects
+               Views:      146         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        4        AssetManagers:        3
+       Local Binders:       33        Proxy Binders:       29
+       Parcel memory:        9         Parcel count:       38
+    Death Recipients:        0      OpenSSL Sockets:        1
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:       62
+ 
