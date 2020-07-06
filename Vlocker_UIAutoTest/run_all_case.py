@@ -23,7 +23,7 @@ if __name__=="__main__":
     performance_data = os.path.join(base_dir, 'youyouth_UIAutoTest')
     report_path = performance_data + "\\TestReport\\result" + now + ".html"
     fp = open(report_path,"wb")
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'有样APP功能UI自动化测试报告',description=u"测试设备：锤子OS105", verbosity=2, retry=0)
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'清理专家APP功能UI自动化测试报告',description=u"测试设备：锤子OS105", verbosity=2, retry=0)
     runner.run(all_case())
     fp.close()
     email = send_email.Send_eMail()
